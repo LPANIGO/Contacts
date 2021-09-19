@@ -18,10 +18,10 @@ export default class RecordContacts extends LightningElement {
     changeHandler(event) {
         this.codigo = event.target.value;
     }
-
+    /*
     async connectedCallback() {
         const data = await fetchDataHelper({ amountOfRecords: 100 });
         this.data = data;
-    }
+    }*/
 }   
 
